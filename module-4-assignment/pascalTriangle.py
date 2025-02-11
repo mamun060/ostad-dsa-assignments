@@ -12,3 +12,5 @@ result = pascalTriangle(numRows)
 print(result)
 for row in result:
     print(" ".join(map(str, row)).center(numRows * 4))
+
+# Time complexity =  O(n^2)
